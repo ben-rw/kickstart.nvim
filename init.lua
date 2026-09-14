@@ -158,6 +158,8 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'center cursor when moving up/d
 vim.keymap.set('n', '<C-o>', '<C-o>zz', { desc = 'center cursor when jumping around' })
 vim.keymap.set('n', '<C-i>', '<C-i>zz', { desc = 'center cursor when jumping around' })
 
+vim.keymap.set('n', '<leader>cf', ':e ~/.config/nvim/init.lua', { desc = 'open config file' })
+
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
